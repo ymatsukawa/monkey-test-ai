@@ -1,0 +1,7 @@
+.playwright-mcp
+
+/report/*
+!/report/.keep
+
+!env.toml.example
+env.toml
