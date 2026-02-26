@@ -19,7 +19,7 @@ Perfect means the following tests.
 
 ## Definition
 * "working": status code 2xx or 3xx, view transition
-* "not working": status code 4xx or 5xx, no view transition, on error view
+* "not working": status code 4xx or 5xx, no view transition, on error view, blank view
 
 ## Workflow
 Main flow:

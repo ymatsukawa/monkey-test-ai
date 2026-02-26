@@ -18,7 +18,7 @@ Launch `playwright mcp`
 And access `target.url_base` from @env.toml
 
 ### Step-2: Start testing with plan
-Run monkey tests following the plan in `@report/plan_{project_name}.md`
+Run monkey tests following the plan in `@tests/{project_name}_{number}.js`
 
 * [ ] If a case fails, append it to `@report/test_{project_name}.md`
 

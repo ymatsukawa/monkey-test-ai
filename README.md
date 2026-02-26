@@ -1,6 +1,6 @@
 # Monkey test AI
 
-## HOW TO USE
+## Usage in short
 
 settings:
 
@@ -13,6 +13,20 @@ on coding agent prompt:
 
 ```
 Run workflow of AGETNS.md
+```
+
+**When using claude**
+
+Plan on Opus:
+
+```
+Run overview-skill and plan-skill
+```
+
+Test on Sonnet:
+
+```
+Run test-skill
 ```
 
 ## Testing
@@ -30,7 +44,7 @@ name = "mock_webapp"
 
 [target]
 url_base = "http://localhost:5173"
-project_root_path = "./test_webapp"
+project_root_path = "./__test_webapp"
 ```
 
 # LICENSE
