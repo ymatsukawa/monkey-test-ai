@@ -1,5 +1,8 @@
 .playwright-mcp
 
+/tests/*
+!/tests/.keep
+
 /report/*
 !/report/.keep
 
