@@ -7,30 +7,32 @@ description: Watch context of the target website by its source code before start
 ## Goal
 Understanding the summary context of a target website by watching its source code.
 
-## No Goal
+## Non Goal
 Understanding detailed/internal system specifications.
 
-NG Examples:
+**NG Examples:**
 * System architecture
 * Component relations
 * Class granularity
-* Variable names
+* Variable names and meanings
 
-Required is "What was built". "How it was built" is none of our business.
+Required is "What was built". "How it was built" is none of your business.
 Just understand "surface" specification.
 
 ## Steps
 
-### Step-1. Get target project root path
-* From `target.project_root_path` of env.toml, find project root path.
+### Step-1. Get target project path
+* From `overview.project_path` of @env.toml, find project path.
 * Do `git rev-parse HEAD`
+  * If it's not git repository, `N/A` is enough for revision
 * Read @report/overview_{project_name}.md
-  * **Break this skill's workflow when the revision is the same as in the report**, because it's already done.
+  * **Break workflow of this skill when the revision is the same as in the report**, because it's already done.
 
 ### Step-2. Get overview of project
-Understand the following contents from the path
+Understand the following contents from the path.
 * System summary
 * User persona
+* Key pages and routes
 * Required basic functions
 
 ### Step-3. Output how you understood the project
@@ -44,6 +46,9 @@ version: {git revision}
 ...
 
 ## User persona
+...
+
+## Key pages and routes
 ...
 
 ## Required basic functions

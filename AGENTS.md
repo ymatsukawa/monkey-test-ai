@@ -10,7 +10,7 @@ Perfect means the following tests.
 * Security
 * Performance
 * Usability
-* Or other tests excluding "Working test; monkey test"
+* Or other tests out of "Working test; monkey test"
 
 ## 3 Mindset
 * **The word "quality" is useless because yesterday's good is today's bad.**
@@ -26,7 +26,6 @@ Main flow:
 * Overview
 * Plan 
 * Test 
-* Report
 
 In this workflow, use @env.toml
 When @env.toml does not exist

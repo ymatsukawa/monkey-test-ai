@@ -46,6 +46,8 @@ Example:
 * WebSocket requires hardware.
   * Testing with software alone is difficult.
 
+Also follow **`plan.forbidden_pattern`** of @env.toml
+
 ### Step-3. Order test cases
 From the remaining categories, list what to test.
 

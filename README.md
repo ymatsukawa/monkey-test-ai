@@ -42,9 +42,9 @@ at env.toml
 [project_name]
 name = "mock_webapp"
 
-[target]
+[overview]
 url_base = "http://localhost:5173"
-project_root_path = "./__test_webapp"
+project_path = "./__test_webapp"
 ```
 
 # LICENSE
